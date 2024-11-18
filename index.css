@@ -1,0 +1,61 @@
+.scoreboard{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container{
+    border: 4px solid  #845162; /* Color and thickness of the border */
+      padding: 20px; /* Add space inside the border */
+      margin: 20px auto; /* Center the container on the page */
+      width: 500px; /* Set a fixed width for the container */
+      text-align: center; /* Center text inside the container */
+      border-radius: 10px;
+      background-color: #845162;
+}
+
+button{
+    font-size: 1rem;
+      padding: 10px 20px;
+      margin: 5px;
+      border: none;
+      background-color: #E3B681;
+      cursor: pointer;
+      border-radius: 5px;
+
+}
+button:hover {
+    background-color: deepskyblue;
+    color: white;
+  }
+
+  #count {
+    font-size: 2rem; /* Makes the font larger */
+    color:#9b3a5a;     /* Changes text color to blue */
+    text-align: center; /* Centers the text */
+    margin: 20px 0;  /* Adds space above and below */
+    width: 100px; /* Fixed width for the square */
+    height: 100px; /* Fixed height for the square */
+    background-color: white;
+    align-items: center; /* Vertically center text */
+    justify-content: center;
+    border: 2px solid black; /* Border around the square */
+    margin: 20px auto;
+    padding: 0%;
+    display:flex;
+  }
+
+  #count2 {
+    font-size: 2rem; /* Makes the font larger */
+    color:#9b3a5a;     /* Changes text color to blue */
+    text-align: center; /* Centers the text */
+    margin: 20px 0;  /* Adds space above and below */
+    width: 100px; /* Fixed width for the square */
+    height: 100px; /* Fixed height for the square */
+    background-color: white;
+    align-items: center; /* Vertically center text */
+    justify-content: center;
+    border: 2px solid black; /* Border around the square */
+    margin: 20px auto;
+    padding:0%;
+    display:flex;
+  }
